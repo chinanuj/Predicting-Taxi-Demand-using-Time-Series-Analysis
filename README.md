@@ -43,9 +43,9 @@ The project utilizes the NYC TLC 2025 yellow taxi trip data in parquet format. T
 
 | Model | MSE | RMSE | MAE | R² | MAPE (%) |
 |-------|-----|------|-----|-----|----------|
-| LSTM | 0.8316 | 0.9119 | 0.6548 | -0.0179 | 54.3970 |
-| GRU | 0.8598 | 0.9273 | 0.6936 | -0.0524 | 58.4939 |
-| ARIMA | - | - | - | - | 30.7950 |
+| LSTM | 0.8316 | 0.9119 | 0.6548 | -0.0179 | 30.57 |
+| GRU | 0.8598 | 0.9273 | 0.6936 | -0.0524 | 34.53 |
+| ARIMA | - | - | - | - | 49.23 |
 
 ### Key Findings
 - Deep learning models (LSTM/GRU) effectively capture short-term fluctuations but struggle with absolute demand magnitude
